@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,38 @@
     <script src="script.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <center>
-    <section class="frame">
-        <div class="calc-outer">
-            <div class="calc-inner">
-            <div class="display">jhga</div>
-            
-            <div class="buttons"></div>
-        </div>
-        </div>
+        <section class="frame">
+            <div class="calc-outer">
+                <div class="calc-inner">
+                    <div class="display"><input class="display" type="text" id="dis"></div>
 
-    </section>
-</center>
+                    <div class="buttons">
+                        <button class="7 num" id="7" onclick="key(this.id)">7</button>
+                        <button class="8 num" id="8" onclick="key(this.id)" >8</button>
+                        <button class="9 num" id="9" onclick="key(this.id)">9</button>
+                        <button class="multi func" id="multi">x</button>
+                        <button class="4 num" id="4" onclick="key(this.id)">4</button>
+                        <button class="5 num" id="5" onclick="key(this.id)">5</button>
+                        <button class="6 num" id="6" onclick="key(this.id)">6</button>
+                        <button class="minus func" id="minus">-</button>
+                        <button class="1 num" id="1" onclick="key(this.id)">1</button>
+                        <button class="2 num" id="2" onclick="key(this.id)">2</button>
+                        <button class="3 num" id="3" onclick="key(this.id)">3</button>
+                        <button class="add func" id="add">+</button>
+                        <button class="ce" id="ce" onclick="ce()">CE</button>
+                        <button class="0 num" id="0" onclick="key(this.id)">0</button>
+                        <button class="equal" id="equal" onclick="equal()">=</button>
+                        <button class="divide func" id="divide">/</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </center>
 </body>
+
 </html>

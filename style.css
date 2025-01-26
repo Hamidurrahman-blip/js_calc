@@ -44,16 +44,52 @@ gap: 38px;
  width: 280px;
 height:50px;
 text-align: right;
-
-padding: 10px 10px 0px 10px;
+background-color: #2d2a37;
+border: none;
 color: #fff;
 font-size: large;
+}
+.display input:focus{
+outline: none;
 }
 .buttons{
     width: 280px;
 height: 293px;
-background-color: #807ECE;
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr ;
 gap: 0px;
-opacity: 0px;
+place-items: center;
 
+}
+.buttons button{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: brown;
+}
+ .num{
+    background-color: #2D2A37;
+box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.29);
+color: #fff;
+font-size: x-large;    
+}
+.func{
+    background-color: #462878;
+    color: #fff;
+    font-size: xx-large;
+    box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.29);
+    
+}
+.equal{
+    background: rgba(127, 69, 226, 1);
+    color: #fff;
+    box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.29);
+    font-size: xx-large;
+
+}
+.ce{
+    background-color: #2D2A37;
+    color: rgba(127, 69, 226, 1);
+    box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.29);
+    font-size: large;
 }
